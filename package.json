@@ -5,7 +5,12 @@
   "author": "Ranniêr Reis <rannierreis@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "commit":"git-cz"
+    "commit": "cz"
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
