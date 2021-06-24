@@ -15,11 +15,21 @@ Funcionalidade para disponibilizar nas apresentações aos usuários para que po
 
 ## Desenvolvimento
 
-Para implantar este projeto execute:
+Para realizar commit neste projeto execute:
 
 ```bash
-  yarn run deploy
+  yarn commit
 ```
+
+  
+## Documentação
+
+[Documentação](https://linktodocumentation)
+
+  
+## Features
+
+- Possibilidade de perguntas de forma anonima ao apresenteador
 
   
 ## FAQ
@@ -34,15 +44,5 @@ Em até 1 mês
 ## Autores
 
 - [@rannyzyzz](https://github.com/RannyZyzz)
-
-  
-## Documentação
-
-[Documentação](https://linktodocumentation)
-
-  
-## Features
-
-- Possibilidade de perguntas de forma anonima ao apresenteador
 
   
