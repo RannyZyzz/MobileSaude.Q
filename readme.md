@@ -1,12 +1,10 @@
-![Badge](https://img.shields.io/badge/mosia-Mobile%20Saude-%237159c1?style=for-the-badge&logo=ghost)
-
-</br>
-
-<h4 align="center"> 
+<h3 align="center"> 
 	🚧  MobileSaude.Q 🚀 Em construção...  🚧
-</h4>
+</h3>
 
 </br>
+
+![Badge](https://img.shields.io/badge/mosia-Mobile%20Saude-%237159c1?style=for-the-badge&logo=ghost)
 
 <p align="center">
  <a href="#desenvolvimento">Desenvolvimento</a> •
