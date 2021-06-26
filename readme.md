@@ -8,6 +8,14 @@
 
 </br>
 
+<p align="center">
+ <a href="#desenvolvimento">Desenvolvimento</a> •
+ <a href="#documentação">Documentação</a> • 
+ <a href="#features">Features</a> • 
+ <a href="#faq">FAQ</a> • 
+ <a href="#autor">Autor</a>
+</p>
+
   
 # MobileSaude.Q
 <img src="/assets/home-page.png">
