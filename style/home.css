@@ -27,7 +27,6 @@ main{
 
 main .container{
     width: min(36.3rem, 100%);
-    resize: none;
 }
 
 main h2{
@@ -52,6 +51,7 @@ input, button, .button{
 .separator{
     display: flex;
     align-items: center;
+    
     margin: 4rem 0;
 }
 
