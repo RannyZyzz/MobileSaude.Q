@@ -19,6 +19,7 @@ html{
     --grey-dark: #4D4E77;
     --grey-blue: #A1B2CD;
     --grey-ligth: #E5EAF1;
+    --grey-medium: #eaecf2;
 
     /* 1rem = 16px (user agent) == 100%
     Regra de 3
