@@ -4,7 +4,7 @@
 
 </br>
 
-![Badge](https://img.shields.io/badge/mosia-Mobile%20Saude-%237159c1?style=for-the-badge&logo=ghost)
+![Badge](https://img.shields.io/badge/Mobile%20Saude-mosia-%237159c1?style=for-the-badge&logo=ghost)
 
 <p align="center">
  <a href="#desenvolvimento">Desenvolvimento</a> •
