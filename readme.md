@@ -16,7 +16,7 @@
 
   
 # MobileSaude.Q
-<img src="/assets/home-page.png">
+<img src="src/images/home-page.png">
 Funcionalidade para disponibilizar nas apresentações aos usuários para que possam realizar perguntas de formas anonimas e serem gerenciados por um supervisor a fim de indicar as melhores perguntas para serem sanadas.
 
 
