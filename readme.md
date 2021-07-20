@@ -4,7 +4,7 @@
 
 </br>
 
-![Badge](https://img.shields.io/badge/mosia-Mobile%20Saude-%237159c1?style=for-the-badge&logo=ghost)
+![Badge](https://img.shields.io/badge/Mobile%20Saude-mosia-%237159c1?style=for-the-badge&logo=ghost)
 
 <p align="center">
  <a href="#desenvolvimento">Desenvolvimento</a> •
@@ -16,7 +16,7 @@
 
   
 # MobileSaude.Q
-<img src="/assets/home-page.png">
+<img src="public/images/home-page.png">
 Funcionalidade para disponibilizar nas apresentações aos usuários para que possam realizar perguntas de formas anonimas e serem gerenciados por um supervisor a fim de indicar as melhores perguntas para serem sanadas.
 
 
