@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "commit": "cz",
-    "start": "nodemon ."
+    "start": "nodemon .",
+    "init-db" : "node src/db/init.js"
   },
   "husky": {
     "hooks": {
@@ -28,6 +29,8 @@
   },
   "dependencies": {
     "ejs": "^3.1.6",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
   }
 }

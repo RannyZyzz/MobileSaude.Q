@@ -1,13 +1,16 @@
 const express = require('express')
+const QuestionController = require('./controllers/question-controller')
+const RoomController = require('./controllers/room-controller')
 
 const route = express.Router()
 
-route.get('/', (req,res) => { res.render('index') })
-route.get('/room', (req,res) =>{ res.render('room') })
-route.get('/create-pass', (req,res) =>{ res.render('create-pass') })
+route.get('/', (req,res) => { res.render('index', {page: 'enter-room'}) })
+route.get('/create-pass', (req,res) =>{ res.render('index', {page: 'create-pass'}) })
+
+route.get('/room/:room', (req,res) =>{ res.render('room') })
 
 //Request Modal para o backend
-//route.post('/room/:room/:question/:action', (req,res) => res.render("exemplo", {req}))
-
+route.post('/question/:room/:question/:action', QuestionController.index)
+route.post('/create-room', RoomController.create)
 
 module.exports = route
