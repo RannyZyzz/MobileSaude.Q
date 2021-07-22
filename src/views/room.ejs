@@ -24,9 +24,10 @@
 
         <script src="/scripts/main.js" defer type="module"></script>
         
+        <!-- Copy to clipboard -->
         <script>
             function myFunction() {
-                var dummy = document.createElement('input'),
+                const dummy = document.createElement('input'),
                 text = "Para participar do Mobile Saúde Questions, clique neste link: " + window.location.href;
 
                 document.body.appendChild(dummy);
@@ -34,9 +35,12 @@
                 dummy.select();
                 document.execCommand('copy');
                 document.body.removeChild(dummy);
-                alert("As informações sobre como participar foram copiadas para a sua área de transferência.")
+                swal("As informações sobre como participar foram copiadas para a sua área de transferência.")
             }
         </script>
+
+        <!-- Alerta customizado -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     </head>
     <body>
