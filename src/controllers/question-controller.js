@@ -37,9 +37,9 @@ module.exports = {
             "room",
             "read"
         ) VALUES(
-            "${question}",
-            "${roomId}",
-            "0"
+            '${question}',
+            '${roomId}',
+            '0'
         )`)
         res.redirect(`/room/${roomId}`)
     }

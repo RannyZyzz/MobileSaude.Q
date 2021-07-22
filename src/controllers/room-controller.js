@@ -23,8 +23,8 @@ module.exports = {
                     id,
                     "pass"
                 ) VALUES(
-                    "${parseInt(roomId)}",
-                    "${pass}"
+                    '${parseInt(roomId)}',
+                    '${pass}'
                 )`)
             }
         }
