@@ -6,6 +6,7 @@
         <title>MobileSaude.Q - Perguntas e Respostas</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="refresh" content="30"/>
 
         <!-- View ports -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,6 +23,20 @@
         <!-- SCRIPTS-->
 
         <script src="/scripts/main.js" defer type="module"></script>
+        
+        <script>
+            function myFunction() {
+                var dummy = document.createElement('input'),
+                text = "Para participar do Mobile Saúde Questions, clique neste link: " + window.location.href;
+
+                document.body.appendChild(dummy);
+                dummy.value = text;
+                dummy.select();
+                document.execCommand('copy');
+                document.body.removeChild(dummy);
+                alert("As informações sobre como participar foram copiadas para a sua área de transferência.")
+            }
+        </script>
 
     </head>
     <body>
@@ -35,7 +50,8 @@
                 <div class="buttons">
                     <div class="button outlined" id="room-id" data-id="<%= roomId %>">
                         #<%= roomId %>
-                        <img src="/images/copy-button.svg" alt="Copiar Numero Sala">
+                        <img src="/images/copy-button.svg" alt="Copiar Numero Sala" onclick="myFunction()">
+
                     </div>
                     <a href="/create-pass" class="button">
                         <img src="/images/users-white-button.svg" alt="Criar Sala">
